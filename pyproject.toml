@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ap2-guard"
+version = "1.0.0"
+description = "Secure Delegated Payment Authorizer & Semantic Firewall for Agentic Commerce"
+authors = ["Anushka Dhiman"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.32.0"
+pydantic = "^2.9.0"
+requests = "^2.32.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
